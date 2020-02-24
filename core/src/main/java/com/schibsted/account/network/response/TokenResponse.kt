@@ -57,5 +57,7 @@ data class TokenResponse(
 
             override fun newArray(size: Int): Array<TokenResponse?> = arrayOfNulls(size)
         }
+
+        const val TAG = "TokenResponse"
     }
 }
